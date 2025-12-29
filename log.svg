@@ -1,0 +1,26 @@
+<svg width="60" height="600" viewBox="0 0 60 600" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+  <defs>
+    <linearGradient id="bark" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#5D4037;stop-opacity:1" />
+      <stop offset="20%" style="stop-color:#795548;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#8D6E63;stop-opacity:1" />
+      <stop offset="80%" style="stop-color:#795548;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5D4037;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Main Log -->
+  <rect x="0" y="0" width="60" height="600" fill="url(#bark)" stroke="#3E2723" stroke-width="2"/>
+  
+  <!-- Bark Texture Details -->
+  <path d="M10,20 Q30,40 10,60" fill="none" stroke="#3E2723" stroke-width="2" opacity="0.6"/>
+  <path d="M50,100 Q30,120 50,140" fill="none" stroke="#3E2723" stroke-width="2" opacity="0.6"/>
+  <path d="M15,200 Q35,220 15,240" fill="none" stroke="#3E2723" stroke-width="2" opacity="0.6"/>
+  <path d="M45,300 Q25,320 45,340" fill="none" stroke="#3E2723" stroke-width="2" opacity="0.6"/>
+  <path d="M10,400 Q30,420 10,440" fill="none" stroke="#3E2723" stroke-width="2" opacity="0.6"/>
+  <path d="M50,500 Q30,520 50,540" fill="none" stroke="#3E2723" stroke-width="2" opacity="0.6"/>
+  
+  <!-- Knot -->
+  <circle cx="30" cy="150" r="8" fill="#4E342E" stroke="#3E2723" stroke-width="2"/>
+  <path d="M26,148 Q30,145 34,148" fill="none" stroke="#3E2723" stroke-width="1"/>
+</svg>
